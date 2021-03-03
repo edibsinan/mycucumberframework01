@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="19.309">
+<testcase classname="datatable sitesinde yeni bir tablo olusturma" name="US1010 tablo olusturma" time="18.968">
+<system-out><![CDATA[Given kullanici datatable anasayfaya gider..................................passed
+And kullanici new butonuna tiklar...........................................passed
+And first name gonderirir...................................................passed
+And last name gonderir......................................................passed
+And position girer..........................................................passed
+And office girer............................................................passed
+And extention girer.........................................................passed
+And start date girer........................................................passed
+And salary girer............................................................passed
+And create butonuna basar...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

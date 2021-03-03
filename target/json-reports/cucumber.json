@@ -1,0 +1,158 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-03T11:18:16.980Z",
+        "line": 3,
+        "name": "US1010 tablo olusturma",
+        "description": "",
+        "id": "datatable-sitesinde-yeni-bir-tablo-olusturma;us1010-tablo-olusturma",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17614000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici datatable anasayfaya gider",
+            "match": {
+              "location": "stepdefinitions.DatatablesStepDefinition.kullanici_datatable_anasayfaya_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 152000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici new butonuna tiklar",
+            "match": {
+              "location": "stepdefinitions.DatatablesStepDefinition.kullanici_new_butonuna_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "first name gonderirir",
+            "match": {
+              "location": "stepdefinitions.DatatablesStepDefinition.first_name_gonderirir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "last name gonderir",
+            "match": {
+              "location": "stepdefinitions.DatatablesStepDefinition.last_name_gonderir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "position girer",
+            "match": {
+              "location": "stepdefinitions.DatatablesStepDefinition.position_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "office girer",
+            "match": {
+              "location": "stepdefinitions.DatatablesStepDefinition.office_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "extention girer",
+            "match": {
+              "location": "stepdefinitions.DatatablesStepDefinition.extention_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 238000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "start date girer",
+            "match": {
+              "location": "stepdefinitions.DatatablesStepDefinition.start_date_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "salary girer",
+            "match": {
+              "location": "stepdefinitions.DatatablesStepDefinition.salary_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "create butonuna basar",
+            "match": {
+              "location": "stepdefinitions.DatatablesStepDefinition.create_butonuna_basar()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@datatables"
+          }
+        ]
+      }
+    ],
+    "name": "datatable sitesinde yeni bir tablo olusturma",
+    "description": "",
+    "id": "datatable-sitesinde-yeni-bir-tablo-olusturma",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1010_editor_datatables.feature",
+    "tags": [
+      {
+        "name": "@datatables",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
